@@ -1,0 +1,4 @@
+AnimationText	KEYWORD1
+Slow	KEYWORD2
+Mid	KEYWORD3
+Fast	KEYWORD4
