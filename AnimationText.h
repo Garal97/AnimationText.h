@@ -13,7 +13,7 @@ class AnimationText {
     char _i;		//position of current printing character
     int _Speed;		//Speed of the thext animation
     bool _Cursor;	//Cursor on/off
-    LiquidCrystal &lcd; // calling LiquidCrystal LCD functions
+    LiquidCrystal &lcd; // calling LiquidCrystal LCD functions. The & is a pointer.
 
   public:
 	AnimationText (LiquidCrystal& lcd, int Speed, bool Cursor); //Main configuration function
